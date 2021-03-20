@@ -1,4 +1,4 @@
-h1 {
+.header {
   background-color: DarkRed;
   color: white;
   padding: 15px;
@@ -7,10 +7,32 @@ h1 {
   font-weight: bold;
 }
 
+.login {
+  background-color: DarkRed;
+  color: white;
+  padding: 20px;
+  text-align: right;
+  font-size: 12px;
+  font-family: Arial;
+  float: right;
+  vertical-align: middle;
+}
+
+nav {
+  background-color: DarkSlateGrey;
+  color: white;
+  padding: 10px;
+  text-align: right;
+  font-size: 12px;
+  font-family: Arial;
+  word-spacing: 10px;
+}
+
 h2 {
   background-color: white;
   color: black;
-  padding: 15px;
+  padding: 4px;
+  padding-left: 32px;
   font-size: 16px;
   font-family: Arial;
   font-weight: bold;
@@ -19,25 +41,21 @@ h2 {
 h4 {
   background-color: white;
   color: black;
-  text-align: right;
-  font-size: 16px;
+  padding-top: 18px;
+  text-align: left;
+  font-size: 14px;
   font-family: Arial;
   font-weight: bold;
+  padding-bottom: 8px;
 }
 
-h6 {
-  background-color: DarkSlateGrey;
-  color: white;
-  padding: 10px;
-  text-align: right;
-  font-size: 12px;
-  font-family: Arial;
-}
 
 p {
   background-color: white;
   color: black;
   padding: 14px;
+  padding-left: 32px;
+  max-width: 755px;
   text-align: left;
   font-size: 12px;
   font-family: Arial;
@@ -55,6 +73,12 @@ a {
   color: white;
 }
 
-img {
-  padding: 18px;
+/* img {
+  padding: 16px;
+} */
+
+aside {
+  padding-right: 10px;
+  margin-right: 10px;
+  float: right;
 }
